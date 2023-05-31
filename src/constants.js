@@ -23,9 +23,9 @@ export const BALLCOLOR="chartreuse";
 export const STROKECOLOR="chartreuse";
 export const SHADOWCOLOR="green";
 export const SHADOWBLUR=10;
-export const BALLV=5;
+export const BALLV=7;
 export const SHADOWITER=4;
-export const PADDLEV=3;
+export const PADDLEV=4;
 
 // Collision types
 export const HORIZONTAL="Horizontal";
