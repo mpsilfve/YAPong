@@ -15,5 +15,11 @@ div.text {
 
 canvas {
   width: 640px;
-  height: 480px;  
+  height: 480px;
+  border-style: solid;
+  border-color: chartreuse;
+}
+
+a {
+  color:BlueViolet;
 }
