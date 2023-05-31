@@ -30,4 +30,14 @@ div.game {
     width: 640px;
 }
 
+#playerscore {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
 
+#osscore {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
