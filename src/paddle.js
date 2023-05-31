@@ -48,14 +48,17 @@ export class PlayerPaddle extends Paddle {
         document.addEventListener(
             "keydown",
             (event) => {
-              const keyName = event.key;
+		const keyName = event.key;
+
               if (keyName === "ArrowUp") {
                 console.log(`Key press ${keyName}`)
                 this.dir = UP;
+	        event.preventDefault();
               }
               else if (keyName === "ArrowDown") {
                 console.log(`Key press ${keyName}`)
-                this.dir = DOWN; 
+                this.dir = DOWN;
+		event.preventDefault();  
               }
             }, false);
         document.addEventListener(
