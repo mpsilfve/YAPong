@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+div.text {
+  font-family: monospace;
+  color: chartreuse;
+  width: 640px;
+  text-align: justify;
+}
+
+#banner {
+  width: 640px;
+}
+
+canvas {
+  width: 640px;
+  height: 480px;  
+}
