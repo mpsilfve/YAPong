@@ -40,10 +40,11 @@ export class Board {
         this.displayScore();
     }
     displayScore() {
-	pscore = this.playerScore.toString().padstart(2,"0");
-	osscore = this.OSScore.toString().padstart(2,"0");
-        pPlayerScore.innerHTML = `Player ${pscore}`;
-        pOSScore.innerHTML = `Computer ${osscore}`;
+	    let pscore = this.playerScore.toString().padStart(2,"0");
+	    let osscore = this.osScore.toString().padStart(2,"0");
+        pPlayerScore.innerHTML = `player ${pscore}`;
+        pOSScore.innerHTML = `computer ${osscore}`;
+	    console.log(pscore +" "+ osscore);
     }
     configCtx() {
         this.ctx.fillStyle = BOARDCOLOR;
