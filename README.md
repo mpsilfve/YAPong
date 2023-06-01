@@ -7,5 +7,5 @@ Try it out here [https://mpsilfve.github.io/YAPong/](https://mpsilfve.github.io/
 
 <img src="assets/screenshot.png"
      alt="Screenshot"
-     style="width:640px;" />
+     style="width:320px;" />
      
